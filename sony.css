@@ -1,0 +1,35 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    flex: 1;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    gap: 2px;
+}
+.header{
+    border: solid 1px #fff;
+}
+.col{
+    border: solid  1px #fff;
+}
+body{
+    background-color: black;
+    
+}
+
+@media( max-width:800px){
+    .pricing-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 80%;
+    }
+}
+ 
